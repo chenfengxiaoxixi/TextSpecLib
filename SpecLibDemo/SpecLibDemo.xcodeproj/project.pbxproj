@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C626BE2212E4FAD00A4D5BC /* UIButton+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C626BE1212E4FAD00A4D5BC /* UIButton+ChainProgramming.m */; };
+		0C626BE9212E99D600A4D5BC /* UILabel+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C626BE8212E99D600A4D5BC /* UILabel+ChainProgramming.m */; };
 		0C8EB66E212BE15C00382420 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EB66D212BE15C00382420 /* AppDelegate.m */; };
 		0C8EB671212BE15C00382420 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EB670212BE15C00382420 /* ViewController.m */; };
 		0C8EB674212BE15C00382420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EB672212BE15C00382420 /* Main.storyboard */; };
@@ -14,9 +16,15 @@
 		0C8EB679212BE15E00382420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C8EB677212BE15E00382420 /* LaunchScreen.storyboard */; };
 		0C8EB67C212BE15E00382420 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EB67B212BE15E00382420 /* main.m */; };
 		0C8EB685212BE26300382420 /* ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8EB684212BE26300382420 /* ChainProgramming.m */; };
+		0C8FEB49212D66D400B80664 /* UIView+ChainProgramming.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C8FEB48212D66D400B80664 /* UIView+ChainProgramming.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C626BE0212E4FAD00A4D5BC /* UIButton+ChainProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+ChainProgramming.h"; sourceTree = "<group>"; };
+		0C626BE1212E4FAD00A4D5BC /* UIButton+ChainProgramming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+ChainProgramming.m"; sourceTree = "<group>"; };
+		0C626BE3212E51CB00A4D5BC /* CategoryHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CategoryHeader.h; sourceTree = "<group>"; };
+		0C626BE7212E99D600A4D5BC /* UILabel+ChainProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChainProgramming.h"; sourceTree = "<group>"; };
+		0C626BE8212E99D600A4D5BC /* UILabel+ChainProgramming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChainProgramming.m"; sourceTree = "<group>"; };
 		0C8EB669212BE15C00382420 /* SpecLibDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpecLibDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0C8EB66C212BE15C00382420 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0C8EB66D212BE15C00382420 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +37,8 @@
 		0C8EB67B212BE15E00382420 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0C8EB683212BE26300382420 /* ChainProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChainProgramming.h; sourceTree = "<group>"; };
 		0C8EB684212BE26300382420 /* ChainProgramming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ChainProgramming.m; sourceTree = "<group>"; };
+		0C8FEB47212D66D400B80664 /* UIView+ChainProgramming.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+ChainProgramming.h"; sourceTree = "<group>"; };
+		0C8FEB48212D66D400B80664 /* UIView+ChainProgramming.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+ChainProgramming.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +71,7 @@
 		0C8EB66B212BE15C00382420 /* SpecLibDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0C8FEB43212D665C00B80664 /* Category */,
 				0C8EB682212BE1FC00382420 /* ChainProgramming */,
 				0C8EB66C212BE15C00382420 /* AppDelegate.h */,
 				0C8EB66D212BE15C00382420 /* AppDelegate.m */,
@@ -82,6 +93,20 @@
 				0C8EB684212BE26300382420 /* ChainProgramming.m */,
 			);
 			path = ChainProgramming;
+			sourceTree = "<group>";
+		};
+		0C8FEB43212D665C00B80664 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				0C626BE3212E51CB00A4D5BC /* CategoryHeader.h */,
+				0C8FEB47212D66D400B80664 /* UIView+ChainProgramming.h */,
+				0C8FEB48212D66D400B80664 /* UIView+ChainProgramming.m */,
+				0C626BE0212E4FAD00A4D5BC /* UIButton+ChainProgramming.h */,
+				0C626BE1212E4FAD00A4D5BC /* UIButton+ChainProgramming.m */,
+				0C626BE7212E99D600A4D5BC /* UILabel+ChainProgramming.h */,
+				0C626BE8212E99D600A4D5BC /* UILabel+ChainProgramming.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +181,11 @@
 			files = (
 				0C8EB671212BE15C00382420 /* ViewController.m in Sources */,
 				0C8EB67C212BE15E00382420 /* main.m in Sources */,
+				0C8FEB49212D66D400B80664 /* UIView+ChainProgramming.m in Sources */,
+				0C626BE2212E4FAD00A4D5BC /* UIButton+ChainProgramming.m in Sources */,
 				0C8EB66E212BE15C00382420 /* AppDelegate.m in Sources */,
 				0C8EB685212BE26300382420 /* ChainProgramming.m in Sources */,
+				0C626BE9212E99D600A4D5BC /* UILabel+ChainProgramming.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
