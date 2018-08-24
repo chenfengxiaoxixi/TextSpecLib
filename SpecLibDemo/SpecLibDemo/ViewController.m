@@ -40,6 +40,11 @@
     label.cp_text(@"喔喔喔").cp_textFont(SFONT(16)).cp_textColor(RedColor);
     self.view.cp_addSubView(label);
     
+//    UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(100, 300, 60, 30)];
+//    label.text = @"";
+//    label.font = [UIFont systemFontOfSize:16];
+//    label.textColor = [UIColor redColor];
+//    [self.view addSubview:label];
 }
 
 - (void)didReceiveMemoryWarning {

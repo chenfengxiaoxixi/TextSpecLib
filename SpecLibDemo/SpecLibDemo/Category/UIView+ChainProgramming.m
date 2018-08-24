@@ -21,6 +21,7 @@
     return [[[self class] alloc] init];
 }
 
+//instancetype作为block内部返回值时，无法连续"."调用其他方法，具体原因我也不是很清楚，感觉有点奇葩
 - (instancetype (^)(CGFloat x,CGFloat y,CGFloat width,CGFloat height))cp_frame
 {
     return ^(CGFloat x,CGFloat y,CGFloat width,CGFloat height)
